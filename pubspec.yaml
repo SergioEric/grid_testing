@@ -1,0 +1,23 @@
+name: grid_testing
+description: A simple grid to wrap your widgets and have a global sense of align.
+
+# The following line prevents the package from being accidentally published to
+# pub.dev using `pub publish`. This is preferred for private packages.
+maintainer: Sergio Eric (@sergioemr)
+homepage: https://devef.com
+version: 0.1.0+1
+repository: https://github.com/SergioEric/grid_testing
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+
+  uses-material-design: true
